@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "16" # 使用する Node.js のバージョン
+          node-version: "20" # 使用する Node.js のバージョン
 
       - name: Install dependencies
         run: npm ci # または yarn install --frozen-lockfile
